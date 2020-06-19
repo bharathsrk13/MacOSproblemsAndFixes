@@ -1,0 +1,12 @@
+In this problem we cannot mount harddisk and cannot do first aid on hard disk (because without mounting hard disk we cannot perform first aid)
+
+This problem will happen if the computer ran into problem and restarted automatically before ejecting hard disk . (Windows la pots hard disk work achhu but Mac la worke zavala)
+
+Solution : 
+1, Follow video instruction
+2. Resource busy error vanda comment screenshot pathu
+ If all else fails try going to activity monitor and force quitting "fsck_ext."
+
+And again execute sudo mount -t hfs /dev/"disk number you got from list of volumes" /Volumes/" the name you given for your disk"
+ 
+You may still get error but hard disk mount aagirukum Automatica
